@@ -1,0 +1,72 @@
+/* ===== GENERAL ===== */
+body {
+    background-color: #f5f7fa;
+    margin: 0;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    padding: 15px 30px;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* ===== BOTONES ===== */
+.btn-custom {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+}
+
+.user-btn {
+    font-size: 1.1rem;
+    padding: 10px 15px;
+}
+
+/* ===== CONTENEDOR LOGIN ===== */
+.login-container {
+    height: calc(100vh - 80px); /* altura total menos navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ===== TARJETA ===== */
+.login-card {
+    background: white;
+    padding: 50px;        /* más espacio dentro = más alto */
+    width: 100%;
+    max-width: 550px;     /* más ancho (antes 400px) */
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== TEXTO ===== */
+.welcome-text {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 1.8rem;  /* más grande */
+}
+
+
+/* ===== INPUTS ===== */
+.input-custom {
+    border-radius: 8px;
+    padding: 14px;   /* más alto */
+    font-size: 1rem;
+}
+
+
+/* ===== BOTÓN LOGIN ===== */
+.btn-login {
+    padding: 14px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+
+.login-card {
+    max-width: 600px;
+}
